@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "code": { "type": "string" },
+    "explanation": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["code", "explanation"],
+  "additionalProperties": false
+}

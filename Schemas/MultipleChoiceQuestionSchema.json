@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "content": { "type": "string" },
+    "duration": { "type": "integer" },
+    "options": { "type": "array", "items": { "type": "string" } },
+    "correctAnswer": { "type": "array", "items": { "type": "integer" }}
+  },
+  "required": ["title", "content", "duration", "options", "correctAnswer"],
+  "additionalProperties": false
+}

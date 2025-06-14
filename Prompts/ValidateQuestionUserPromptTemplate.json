@@ -1,0 +1,4 @@
+{
+  "version": "1.1",
+  "template": "Validate the question and rate it up to 100 points. The improvement suggestions should focus on making the question clear, concise, and manageable for the audience, aiming to improve the overall score. Avoid over-complicating. The goal of the suggested improvements is to refine the question so that it can achieve a higher overall score by enhancing clarity, focus, and relevance."
+}

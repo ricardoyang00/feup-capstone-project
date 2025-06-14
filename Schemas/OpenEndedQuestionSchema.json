@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "content": { "type": "string" },
+    "duration": { "type": "integer" }
+  },
+  "required": ["title", "content", "duration"],
+  "additionalProperties": false
+}

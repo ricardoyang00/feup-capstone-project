@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "content": { "type": "string" },
+    "duration": { "type": "integer" },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "example": { "type": "string" },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["title", "content", "duration", "constraints", "example", "notes"],
+  "additionalProperties": false
+}

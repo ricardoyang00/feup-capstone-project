@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+  "solution": { "type": "array", "items": { "type": "string" } }
+},
+  "required": ["solution"],
+  "additionalProperties": false
+}

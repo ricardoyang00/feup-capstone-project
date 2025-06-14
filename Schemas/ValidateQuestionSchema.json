@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "overall_score": { "type": "integer" },
+    "format_score": { "type": "integer" },
+    "clarity_score": { "type": "integer" },
+    "fairness_score": { "type": "integer" },
+    "uniqueness_score": { "type": "integer" },
+    "suggested_improvements": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["overall_score", "format_score", "clarity_score", "fairness_score", "uniqueness_score", "suggested_improvements"],
+  "additionalProperties": false
+}

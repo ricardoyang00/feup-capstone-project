@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "score": { "type": "integer" },
+    "score_info": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["score", "score_info"],
+  "additionalProperties": false
+}

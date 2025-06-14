@@ -1,0 +1,4 @@
+{
+  "version": "1.0",
+  "template": "Evaluate the user's submitted answer based on the provided exercise details. Assign a score from 0 to 100 and provide a detailed \"Score Info\" section explaining the score. In the \"Score Info,\" highlight the user's strengths, weaknesses, and suggestions for improvement, ensuring the feedback is relevant for a supervisor to understand the user's performance. Ensure the evaluation adheres to the exercise's question, constraints, examples, and notes. For coding exercises, accept any programming language unless a specific language is explicitly required in the constraints, and do not penalize language choice unless the user violates a specified language requirement."
+}

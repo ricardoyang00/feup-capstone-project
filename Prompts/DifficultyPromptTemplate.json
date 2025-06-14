@@ -1,0 +1,20 @@
+{
+  "Version": "1.0",
+  "difficultyPrompt": {
+    "Coding": {
+      "Easy": "A easy coding problem takes less than 20 minutes and requires recalling definitions, facts, or simple concepts without complex analysis.",
+      "Medium": "A medium coding problem takes 20 to 40 minutes and requires applying concepts to solve problems or involve comparing/contrasting, explaining mechanisms, or interpreting scenarios.",
+      "Hard": "A hard coding problem takes more than 40 minutes and requires critical thinking, creativity, and deep conceptual mastery assess expertise in applying theory to complex, real-world scenarios."
+    },
+    "MultipleChoice": {
+      "Easy": "A easy multiple choice problem requires basic knowledge.",
+      "Medium": "A medium multiple choice problem requires moderate knowledge, involving multiple concepts.",
+      "Hard": "A hard multiple choice problem requires advanced knowledge."
+    },
+    "OpenEnded": {
+      "Easy": "A easy open-ended problem requires basic knowledge.",
+      "Medium": "A medium open-ended problem requires moderate knowledge, involving multiple concepts.",
+      "Hard": "A hard open-ended requires advanced knowledge."
+    }
+  }
+}

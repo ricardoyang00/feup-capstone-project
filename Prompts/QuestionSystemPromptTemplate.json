@@ -1,0 +1,5 @@
+{
+  "version": "1.3",
+  "basePrompt": "You are an AI that generates exercises. Respond without markdown, extra formatting, or text. The response must strictly follow the format. Ensure the exercise is not common. ",
+  "template": "{basePrompt} {difficultyPrompt} Provide the expected duration for this question in seconds. For multiple-choice questions, do not prefix the options with any labels such as letters (a, b, c...) or numbers (1, 2, 3...). Avoid using phrases like 'all of the above' or 'all of the below'. If including an option that refers to all choices, use 'all of the options' instead, as the options will be shuffled in the frontend. Ensure any coding block is wrapped in triple backticks followed by the language name (e.g. ```csharp, ```python)."
+}

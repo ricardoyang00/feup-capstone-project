@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "template": "Generate a {type} exercise, {difficulty} difficulty level, related to {domain}, {category}, {subcategory}.",
+  "placeholders": {
+    "type": {
+      "Coding": "Coding",
+      "MultipleChoice": "Multiple Choice",
+      "OpenEnded": "Open-Ended"
+    },
+    "difficulty": {
+      "Easy": "easy",
+      "Medium": "medium",
+      "Hard": "hard"
+    }
+  }
+}

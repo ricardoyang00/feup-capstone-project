@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "overall_score": { "type": "integer" },
+    "correctness_score": { "type": "integer" },
+    "clarity_score": { "type": "integer" },
+    "efficiency_score": { "type": "integer" },
+    "completeness_score": { "type": "integer" },
+    "suggested_improvements": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["overall_score", "correctness_score", "clarity_score", "efficiency_score", "completeness_score", "suggested_improvements"],
+  "additionalProperties": false
+}
